@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="Pulsaciones.js"></script>
+ <section>
+      <nav>
+        <ul>
+          <li><a href="principal.html">Inicio</a></li>
+           <li><a href="inicio.html">Registro</a></li>
+            <li><a href="consulta.html">Consulta</a></li>
+        </ul>
+      </nav>
+  </section>
+  <section>
+    <article>
+      <img src="latido-del-corazon.png">
+      <h1>Formulario</h1>
+      <form>
+          <div>
+           <label for="Identificacion">Identificacion:</label>
+           <input type="text" id="identificacion" name="identificacion"><br><br>
+          </div>
+          <div>
+            <label for="PrimerNombre">Primer Nombre:</label>
+            <input type="text" id="PrimerNombre" name="fname"><br><br>
+          </div>
+          <div>
+            <label for="PrimerApellido">Primer Apellido:</label>
+            <input type="text" id="PrimerApellido" name="lname"><br><br>
+          </div>
+          <div>
+            <label for="edad">Edad actual:</label>
+            <input type="number" id="edad" name="edad"><br><br>
+          </div>
+          <div>
+            <label for="Sexo">Sexo: </label>
+            <select id="Sexo">
+              <option value="Masculino" selected>Masculino</option>
+              <option value="Femenino">Femenino</option>
+            </select><br><br>
+          </div>
+          <div>
+            <label for="pulsaciones">Pulsaciones:</label>
+            <input type="text" id="pulsaciones" name="pulsaciones"><br><br>
+          </div >
+        </form>
+        <div style="text-align: center;">
+          <button type="button" onclick="calcularPulsaciones()">Calcular :)</button>
+        </div>
+    </article>
+  </section>
+  
+
+</body>
+</html>
