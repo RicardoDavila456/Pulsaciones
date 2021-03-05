@@ -4,7 +4,7 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
+  <script src="Pulsaciones.js"></script>
  <section>
       <nav>
         <ul>
@@ -17,22 +17,21 @@
   <section>
     <article>
       <img src="latido-del-corazon.png">
+      <button onclick="consultar()">Consultar :)</button>
       <h1>Consulta</h1>
       <table id="consulta">
+        <thead>
         <tr>
             <th>Identificacion</th>
             <th>Primer Nombre</th>
             <th>Primer Apellido</th>
             <th>Sexo</th>
+            <th>Edad</th>
             <th>Pulsaciones</th>
           </tr>
-          <tr>
-            <td>1193583936</td>
-            <td>Ricardo</td>
-            <td>Davila</td>
-            <td>Masculino</td>
-            <td>23</td>
-          </tr>
+        </thead>
+        <tbody id="cuerpotabla">
+        </tbody>
       </table>
       
     </article>
